@@ -49,6 +49,7 @@ Thêm vào crontab để đọc dữ liệu định kỳ (ví dụ mỗi 5 phút
 
 `crontab -e`
 `*/5 * * * * python3 /home/pi/read_dht22.py`
+```
 
 ---
 
