@@ -85,6 +85,7 @@ def read_sensor_data():
 
 if __name__ == "__main__":
     read_sensor_data()
+```
 ---
 3. So sánh các loại cảm biến độ ẩm đất
 |Tiêu chí|Cảm biến điện dung (Mới)|Cảm biến điện trở (Cũ)|
