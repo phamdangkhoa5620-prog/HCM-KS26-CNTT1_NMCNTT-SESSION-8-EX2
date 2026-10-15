@@ -88,16 +88,19 @@ if __name__ == "__main__":
 ```
 ---
 3. So sánh các loại cảm biến độ ẩm đất
-|Tiêu chí|Cảm biến điện dung (Mới)|Cảm biến điện trở (Cũ)|
-|---|---|---|
-|Độ bền|Cao (chống ăn mòn tốt)|Thấp (dễ bị oxy hóa)|
-|Độ chính xác|Ổn định lâu dài|Giảm dần theo thời gian|
-|Chi phí|Hơi cao hơn|Rẻ hơn|
-4. Danh sách kiểm tra thiết bị (Task List)
-[x] Kiểm tra nguồn điện cấp cho mạch điều khiển
 
-[x] Kết nối chân tín hiệu vào SENSOR_PIN
+| Tiêu chí | Cảm biến điện (Mới) | Cảm biến điện trở lại (Cũ) |
+| :--- | :--- | :--- |
+| Độ bền | Cao (chống ăn mòn tốt) | Low (dễ bị oxy hóa) |
+| Độ chính xác | Long long ổn định | Giảm dần theo thời gian |
+| Chi phí | Hơi cao hơn | Rẻ hơn |
 
-[ ] Cấu hình lại thông số trong file pump_control.py
+5. Danh sách kiểm tra thiết bị (Task List)
 
-[ ] Chạy thử nghiệm hệ thống bơm nước
+- [x] Kiểm tra nguồn điện cấp cho mạch điều khiển
+
+- [x] Kết nối chân tín hiệu vào SENSOR_PIN
+
+- [ ] Cấu hình lại thông số trong file pump_control.py
+
+- [ ] Chạy thử nghiệm hệ thống bơm nước
